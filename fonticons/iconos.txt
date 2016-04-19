@@ -1,0 +1,43 @@
+https://fortawesome.github.io/Font-Awesome/icons/
+-----------------------------------------------------------
+linkedin
+<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+
+git
+<i class="fa fa-git-square" aria-hidden="true"></i>
+
+twitter
+<i class="fa fa-twitter-square" aria-hidden="true"></i>
+
+profile
+<i class="fa fa-user" aria-hidden="true"></i>
+
+skills
+<i class="fa fa-cogs" aria-hidden="true"></i>
+
+	html5
+	<i class="fa fa-html5" aria-hidden="true"></i>
+
+	css3
+	<i class="fa fa-css3" aria-hidden="true"></i>
+
+	sass
+	<i class="fa fa-file-code-o" aria-hidden="true"></i>
+
+	bootstrap
+	<i class="fa fa-file-archive-o" aria-hidden="true"></i>
+
+	star black
+	<i class="fa fa-star" aria-hidden="true"></i>
+
+	star white
+	<i class="fa fa-star-o" aria-hidden="true"></i>
+
+Education
+<i class="fa fa-pencil" aria-hidden="true"></i>
+
+	Circle
+	<i class="fa fa-circle" aria-hidden="true"></i>
+
+Contact
+<i class="fa fa-envelope" aria-hidden="true"></i>

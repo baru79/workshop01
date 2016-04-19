@@ -1,0 +1,168 @@
+*
+	box-sizing: border-box
+
+.wrapper
+	padding: 20px
+	border: solid 1px black
+	border-radius: 5px
+
+header
+	border-bottom: solid 1px black
+	padding-bottom: 5px
+
+body
+	font-family: sans-serif
+	margin: 5px
+
+.datos
+	float: left
+	margin-top: 20px
+
+.datos h1
+	font-size: 16px
+	margin: 0
+	padding: 0
+
+.datos h2
+	font-size: 16px
+	margin-top: 10px
+	padding: 0
+
+.datos p
+	font-size: 16px
+
+.datos p a
+	text-decoration: none
+	color: blue
+
+.datos i
+	font-size: 30px
+	color: black
+
+.foto
+	float: right
+	margin: 0
+	line-height: 0
+
+.foto img
+	border: solid 1px black
+
+.cleaner
+	clear: both
+
+.perfil, 
+.habilidades,
+.educacion
+	border-bottom: solid 1px black
+
+.perfil i,
+.habilidades i,
+.educacion i,
+.contacto i
+	margin-right: 10px
+	display: inline-block
+	vertical-align: middle
+
+.perfil span,
+.habilidades span,
+.educacion span,
+.contacto span
+	display: inline-block
+	vertical-align: middle
+
+.caja-habilidad
+	width: 25%
+	float: left
+
+.caja-habilidad td
+	text-align: center
+
+.icono-habilidad
+	text-align: center
+
+ul
+	list-style: none
+	margin: 0
+	padding: 0
+	padding-left: 35px
+
+ul p
+	padding-left: 30px
+
+.contacto-formulario
+	text-align: center
+
+.contacto-caja1
+	float: left
+	width: 600px
+
+.contacto-caja1 input,
+.contacto-caja2 textarea
+	display: block
+	width: 100%
+	padding: 2%
+
+.contacto-caja1 input
+	height: 50px
+	margin-bottom: 50px
+	border: solid 1px gray
+	border-radius: 5px
+
+.contacto-caja2 textarea
+	height: 150px
+	border: solid 1px gray
+	border-radius: 5px
+
+.contacto-caja2
+	float: right
+	width: 600px
+
+.boton
+	background-color: black
+	color: white
+	border: none
+	border-radius: 5px
+	height: 50px
+	width: 200px
+
+/*----------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------Media Queries--------------------------------------------*/
+/*----------------------------------------------------------------------------------------------------*/
+/*Tamaño Medium*/
+/*Se ejecuta cuando la resolucion es menor que 860px*/
+@media (max-width: $medium*1px)
+	.caja-habilidad
+		width: 50%
+	
+	.contacto-caja1
+		width: 48%
+	
+	.contacto-caja2
+		width: 48%
+		margin-bottom: 50px
+	
+
+/*Tamaño Small*/
+/*Se ejecuta cuando la resolucion es menor que 700px*/
+@media (max-width: $small*1px)
+	.contacto-caja1
+		width: 100%
+	
+	.contacto-caja2
+		width: 100%
+	
+
+/*Tamaño Extra-small*/
+/*Se ejecuta cuando la resolucion es menor que 480px*/
+@media (max-width: $extra-small*1px)
+	.datos
+		float: none
+		width: 100%
+		text-align: center
+	
+	.foto
+		float: none
+		text-align: center
+	
+	.caja-habilidad
+		width: 100%
